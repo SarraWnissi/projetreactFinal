@@ -1,0 +1,71 @@
+/* Destination.css 
+*/
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: rgb(243, 203, 112);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reserver {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reserver :hover {
+  background-color: #0056b3;
+ 
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.carousel {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.carousel .slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.reservation-form {
+  width: 40%;
+}
