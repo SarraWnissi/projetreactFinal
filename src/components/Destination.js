@@ -126,7 +126,7 @@ const Destination = () => {
           {/* Ajoutez autant de slides que nécessaire */}
         </Slider>
 
-        <h1>{selectedHotel.name}</h1>
+        <h1 className="HOTELNAME">{selectedHotel.name}</h1>
       </div>
     </div>
   );

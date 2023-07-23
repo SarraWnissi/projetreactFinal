@@ -58,14 +58,20 @@ select {
 
 .carousel {
   width: 300px;
-  margin-left: 20px;
+  margin-left: 30px;
+ margin-top: auto;
+ 
 }
 
 .carousel .slick-slide img {
-  width: 100%;
+  width: 150%;
   height: auto;
+  
 }
 
 .reservation-form {
   width: 40%;
+}
+.HOTELNAME{
+  padding: 20px;
 }
