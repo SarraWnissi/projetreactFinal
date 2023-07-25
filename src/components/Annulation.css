@@ -1,0 +1,75 @@
+
+.annulationContainer {
+   
+    flex-direction:row;
+    align-items: center;
+    margin: 20px;
+    background-image: url("https://bebemeghan.ca/images/yourstory_ngo_license_cancelled.jpg"); /* Update the image path if necessary */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures the background covers the entire viewport height */
+   
+    align-items: center; /* Vertically center the content */
+  }
+  
+  
+  /* Container for the policy text */
+  .annulationContainer > div {
+    margin-bottom: 60px;
+  }
+  
+  /* Title style */
+  .annulationContainer h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: red;
+  }
+  
+  /* Strong text style */
+  .annulationContainer .strong {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3a02f1;
+  }
+  
+  /* Contact information style */
+  .annulationContainer .annulationContact {
+    font-style: italic;
+    color: #3a02f1;
+  }
+  
+  
+  
+   /* Back button style */
+  .backButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  /* Language selection dropdown style */
+  .languageSelector {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .languageSelector label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .languageSelector select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

@@ -1,7 +1,7 @@
-body {
+ body {
   margin: 0;
   padding: 0;
- 
+  
 }
 
 
@@ -9,9 +9,10 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 50px;
-    background-image: url("https://as1.ftcdn.net/v2/jpg/03/32/28/50/1000_F_332285057_Z3eJzaKsKafvPuZ649LZB2xifdeMrjfG.jpg");
+    background-image: url(https://media.istockphoto.com/id/1226856056/photo/businessman-at-work.jpg?s=170667a&w=0&k=20&c=j26MEXCSkq3HIH0v1N5a3GR5lZ8CszWp2XJXkgkGnX8=);
   background-size: cover;
   background-position: center;
+  
    }
   
   .form-group {
@@ -36,7 +37,7 @@ body {
     padding: 10px 20px;
     font-size: 20px;
    
-    color: #e17822;
+    color: #100d0a;
     border: none;
     border-radius: 10px;
     cursor: pointer;

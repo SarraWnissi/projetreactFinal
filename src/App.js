@@ -8,6 +8,7 @@ import Destination from "./components/Destination";
 import Gallery from "./components/Gallery";
 import SignInPage from "./components/SignInPage";
 import { Route, Router, Routes } from "react-router-dom";
+import Annulation from "./components/Annulation";
 
 const App = () => {
   const [showSignIn, setShowSignIn] = useState(false);
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="/destination/:id" element={<Destination />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/annulation" element={<Annulation />} />
         <Route
           path="/SignInPage"
           element={

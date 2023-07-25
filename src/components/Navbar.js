@@ -46,12 +46,12 @@ const Navbar = ({ setSearchByName, setSearchByLocation }) => {
             Contact
           </Link>
         </li>
-       {/*  <li>
-          <Link to="/destination">
+        <li>
+          <Link to="/annulation">
             <FontAwesomeIcon icon={faLocationDot} />
-            destination
+            Politique d'annulation
           </Link>
-  </li>*/}
+  </li>
       </ul>
       <div className="button-icon">
         <div className="action">

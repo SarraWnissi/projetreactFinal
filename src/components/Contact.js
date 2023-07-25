@@ -26,9 +26,9 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ajoutez ici la logique pour envoyer les données du formulaire
+   
     console.log(formData);
-    // Réinitialisez les champs du formulaire
+    
     setFormData({
       firstName: "",
       lastName: "",
